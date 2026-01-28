@@ -9,13 +9,13 @@ export default function Home() {
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-md shadow-md z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="text-3xl font-bold bg-gradient-to-r from-orange-500 via-yellow-500 to-blue-600 bg-clip-text text-transparent">
+            <div className="text-3xl font-bold bg-gradient-to-r from-amber-500 via-orange-500 to-sky-700 bg-clip-text text-transparent">
               {config.projectName}
             </div>
             <div className="flex gap-4">
               <Link 
                 href="/contact" 
-                className="px-6 py-3 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-lg font-semibold hover:from-orange-600 hover:to-yellow-600 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 text-base"
+                className="px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-lg font-semibold hover:from-amber-600 hover:to-orange-600 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 text-base"
               >
                 Contact
               </Link>
@@ -47,7 +47,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="px-8 py-4 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-lg font-semibold hover:from-orange-600 hover:to-yellow-600 transition shadow-xl hover:shadow-2xl text-lg"
+                className="px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-lg font-semibold hover:from-amber-600 hover:to-orange-600 transition shadow-xl hover:shadow-2xl text-lg"
               >
                 Get Free Quote
               </Link>
@@ -63,7 +63,7 @@ export default function Home() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-orange-500 via-yellow-500 to-blue-600">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-amber-400 via-orange-500 to-sky-700">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
@@ -217,7 +217,7 @@ export default function Home() {
             </div>
             
             <div className="text-center p-6">
-              <div className="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-20 h-20 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-4xl">🌱</span>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Eco Friendly</h3>
@@ -253,7 +253,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="w-16 h-16 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Consultation</h3>
@@ -261,7 +261,7 @@ export default function Home() {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="w-16 h-16 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Design</h3>
@@ -269,7 +269,7 @@ export default function Home() {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="w-16 h-16 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Installation</h3>
@@ -277,7 +277,7 @@ export default function Home() {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+              <div className="w-16 h-16 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Activation</h3>
@@ -288,7 +288,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-orange-500 via-yellow-500 to-blue-600">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-amber-400 via-orange-500 to-sky-700">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Ready to Go Solar?
@@ -310,7 +310,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
-              <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-orange-400 via-yellow-400 to-blue-400 bg-clip-text text-transparent">
+              <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-amber-500 via-orange-400 to-sky-500 bg-clip-text text-transparent">
                 {config.projectName}
               </h3>
               <p className="text-gray-400 leading-relaxed">
