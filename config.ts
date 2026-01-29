@@ -2,7 +2,7 @@
 // Yahan se project name aur baaki settings easily change kar sakte hain
 
 export const config = {
-  projectName: "Solar Square",
+  projectName: "SolarSquare",
   tagline: "Harnessing the Power of the Sun",
   description: "Leading solar energy solutions for a sustainable future",
   contactEmail: "contact@solarsquare.in",
